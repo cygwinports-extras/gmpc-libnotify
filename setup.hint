@@ -1,0 +1,7 @@
+category: Audio Gnome
+requires: gmpc libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libmpd1 libnotify4
+sdesc: "GTK+ client for the Music Player Daemon (notification plugin)"
+ldesc: "GMPC is a GTK2 client for Music Player Daemon. The interface is 
+made to be easy to use, but provide full access to all the features MPD 
+provides. It gives the user several ways to browse his database while 
+still being a lightweight client."

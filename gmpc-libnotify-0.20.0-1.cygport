@@ -1,0 +1,8 @@
+inherit gnome2
+
+DESCRIPTION="Notification plugin for the GTK Music Player Daemon client"
+HOMEPAGE="http://gmpc.wikia.com/wiki/"
+SRC_URI="mirror://sourceforge/musicpd/${P}.tar.gz"
+PATCH_URI="mirror://portage/media-plugins/${PN}/files/${P}-libnotify-0.7.patch"
+
+MAKEOPTS+=" LDFLAGS=-no-undefined"
