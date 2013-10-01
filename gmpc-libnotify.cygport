@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="gmpc-libnotify"
+VERSION=11.8.16
+RELEASE=1
+CATEGORY="Audio"
+SUMMARY="Notification plugin for the GNOME Music Player Daemon client"
+DESCRIPTION="GMPC is a GTK2 client for Music Player Daemon. The interface is
+made to be easy to use, but provide full access to all the features MPD
+provides. It gives the user several ways to browse his database while still
+being a lightweight client."
+HOMEPAGE="http://gmpclient.org/"
+SRC_URI="http://www.musicpd.org/download/gmpc-plugins/${VERSION}/${NAME}-${VERSION}.tar.gz"
+
+MAKEOPTS+=" LDFLAGS=-no-undefined"
